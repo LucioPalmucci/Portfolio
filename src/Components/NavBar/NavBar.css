@@ -1,0 +1,11 @@
+.icon-hover{
+    transition: transform 0.3s ease-in-out;
+}
+
+.icon-hover:hover {
+    transform: translateY(-5px);
+}
+
+.icon {
+    font-size: 1.9rem;
+}
