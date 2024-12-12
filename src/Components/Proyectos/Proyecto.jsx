@@ -2,7 +2,7 @@ import React from 'react';
 
 function Proyecto({ title, description, imageUrl, repoUrl }) {
   return (
-    <div className="bg-gray-800 p-4 rounded-lg shadow-lg m-4 w-1/2">
+    <div className="bg-gray-800 p-4 rounded-lg shadow-lg m-4 w-40">
       <img src={imageUrl} alt={title} width={300} height={150} className="rounded-lg" />
       <div className="p-4">
         <h2 className="text-xl font-bold text-white">{title}</h2>

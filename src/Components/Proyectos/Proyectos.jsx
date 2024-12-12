@@ -16,13 +16,13 @@ function Proyectos() {
     ];
 
     return (
-        <div className="justify-center items-center flex flex-col font-mono text-white">
-        <div className='mt-4 text-start w-1/3'>
+        <div className="justify-center items-center flex flex-col font-mono text-white mt-8">
+        <div className='mt-4 text-start w-40'>
             <h1 className="text-2xl">
             <FontAwesomeIcon icon={faCode} className="text-2xl"/> Proyectos
             </h1>
         </div>
-        <div className="flex flex-wrap justify-start w-1/3">
+        <div className="flex flex-wrap justify-start w-40">
             {proyectos.map((proyecto, index) => (
             <Proyecto
                 key={index}

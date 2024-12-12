@@ -1,15 +1,23 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
+import Background from './Components/Background/Background.jsx';
+import Experiencia from './Components/Experiencia/Experiencia.jsx';
 import Intro from './Components/Introduction/Intro.jsx';
 import NavBar from './Components/NavBar/NavBar.jsx';
+import Proyectos from './Components/Proyectos/Proyectos.jsx';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
+
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
+    <Background />
     <NavBar />
     <Intro />
+    <Proyectos/>
+    <Experiencia/>
   </React.StrictMode>
 );
 

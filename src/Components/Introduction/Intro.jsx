@@ -5,11 +5,11 @@ function Intro() {
         <div>
             <img src={fotoCV} className="w-64 h-64 rounded-full border-4 border-white" alt="Foto Portfolio" />
         </div>
-        <div className='mt-4 text-start w-1/3'>
-            <h1 className='text-2xl'>Hi, I'm Lucio Palmucci</h1>
-            <p className=''>Web Developer</p>
+        <div className='mt-4 text-start w-40'>
+            <h1 className='text-2xl'>Hola, soy Lucio Palmucci</h1>
+            <p className='text-lg'>Desarrollador Web</p>
             <br/>
-            <p>Estudiante de 2º año de Ingeniería en Informática con
+            <p className='text-base'>Estudiante de 2º año de Ingeniería en Informática con
             experiencia en voluntariado, buscando mi primera
             oportunidad laboral en sistemas. Con muchas ganas de
             contribuir en proyectos de tecnología, aportando mis
@@ -17,7 +17,7 @@ function Intro() {
             del software.
             </p>
             <br/>
-            <p>Tecnologias que manejo:</p>
+            <p className='text-base'>Tecnologías que manejo:</p>
             <p align="left" className='flex space-x-1'>
               <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5"/>
               <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3"/>
