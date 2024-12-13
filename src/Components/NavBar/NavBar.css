@@ -9,3 +9,7 @@
 .icon {
     font-size: 1.9rem;
 }
+
+html {
+    scroll-behavior: smooth;
+}

@@ -39,7 +39,7 @@ function Intro() {
     }
   ];
   return (
-    <div className="justify-center items-center flex flex-col font-mono text-white">
+    <div id="Home" className="justify-center items-center flex flex-col font-mono text-white">
         <div>
             <img src={fotoCV} className="w-64 h-64 rounded-full border-4 border-white animate-slideDown25" alt="Foto Portfolio" />
         </div>

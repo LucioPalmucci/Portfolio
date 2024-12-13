@@ -6,7 +6,7 @@ import React from 'react';
 const Footer = () => {
     return (
         <footer className="footer">
-            <div className="text-white flex justify-between p-10">
+            <div className="text-white flex space-x-4 p-10">
                 <p>&copy; 2024 Lucio Palmucci.</p>
                 <div className="social-links space-x-2">
                     <a href='mailto:lucio.palmucci@hotmail.com' target="_blank" rel="noreferrer">
