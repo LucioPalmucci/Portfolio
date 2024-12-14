@@ -6,20 +6,22 @@ import Footer from './Components/Footer/Footer.jsx';
 import Intro from './Components/Introduction/Intro.jsx';
 import NavBar from './Components/NavBar/NavBar.jsx';
 import Proyectos from './Components/Proyectos/Proyectos.jsx';
+import { LanguageProvider } from './Context/LanguageContext.js';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
-
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Background />
-    <NavBar />
-    <Intro />
-    <Proyectos/>
-    <Experiencia/>
-    <Footer/>
+    <LanguageProvider>
+      <Background />
+      <NavBar />
+      <Intro />
+      <Proyectos/>
+      <Experiencia/>
+      <Footer/>
+    </LanguageProvider>
   </React.StrictMode>
 );
 

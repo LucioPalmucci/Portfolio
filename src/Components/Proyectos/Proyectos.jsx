@@ -40,7 +40,7 @@ function Proyectos() {
     
 
     return (
-        <div id="Proyectos" className="justify-center items-center flex flex-col font-mono text-white mt-20">
+        <div id="Proyectos" className="justify-center items-center flex flex-col font-mono text-white mt-16">
             <div className='mt-4 text-start w-40 animate-slideDown25'>
                 <h1 className="text-2xl">
                     <FontAwesomeIcon icon={faCode} className="text-2xl" /> {isEnglish ? 'Projects:' : 'Proyectos:'}
