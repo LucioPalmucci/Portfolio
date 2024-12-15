@@ -55,18 +55,18 @@ function Intro() {
     return (
         <div id="Home" className="justify-center items-center flex flex-col font-mono text-white">
             <div>
-                <img src={fotoCV} className="w-64 h-64 rounded-full border-4 border-white animate-slideDown25" alt="Foto Portfolio" />
+                <img src={fotoCV} className="md:w-64 md:h-64 max-md:h-44 max-md:w-44 rounded-full border-4 border-white animate-slideDown25" alt="Foto Portfolio" />
             </div>
-            <div className='mt-4 text-start w-40'>
+            <div className='mt-4 text-start md:w-40 max-md:w-2/3'>
                 <h1 className='text-2xl animate-slideLeft'>{nombre}</h1>
                 <p className='text-lg text-gray-100 animate-slideLeft'>{funcion}</p>
                 <br />
-                <p className='text-base animate-slideLeft'>{descripcion}</p>
+                <p className='animate-slideLeft'>{descripcion}</p>
                 <br />
-                <p className='text-base'>{manejo}</p>
-                <div className="flex space-x-2">
+                <p>{manejo}</p>
+                <div className="flex flex-wrap ">
                     {tecnologias.map((tecnologia, index) => (
-                        <img key={index} src={tecnologia.badgeUrl} alt={tecnologia.alt} className="opacity-0" style={{ animation: `slideLeft 1.5s ease-out forwards ${index * 0.2}s` }} />
+                        <img key={index} src={tecnologia.badgeUrl} alt={tecnologia.alt} className="opacity-0 m-0.5" style={{ animation: `slideLeft 1.5s ease-out forwards ${index * 0.2}s` }} />
                     ))}
                 </div>
             </div>

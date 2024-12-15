@@ -19,7 +19,7 @@ function Experiencia() {
 
     return (
         <div id="Experiencia" className="justify-center items-center flex flex-col font-mono text-white mt-20">
-            <div className="text-start w-40">
+            <div className="text-start md:w-40 max-md:w-2/3">
                 <h1 className="text-2xl animate-show">
                     <FontAwesomeIcon icon={faBriefcase} style={{ fontSize: "0.8em" }} className="text-gray-400" /> {Experiencia}
                 </h1><br />

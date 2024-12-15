@@ -41,21 +41,21 @@ function Proyectos() {
 
     return (
         <div id="Proyectos" className="justify-center items-center flex flex-col font-mono text-white mt-16">
-            <div className='mt-4 text-start w-40 animate-slideDown25'>
+            <div className='mt-4 text-start md:w-40 max-md:w-2/3 animate-slideDown25'>
                 <h1 className="text-2xl">
                     <FontAwesomeIcon icon={faCode} className="text-2xl" /> {isEnglish ? 'Projects:' : 'Proyectos:'}
                 </h1>
-            </div>
-            <div className="flex flex-wrap justify-start w-40 animate-slideRight">
-                {proyectos.map((proyecto, index) => (
-                    <Proyecto
-                        key={index}
-                        title={proyecto.title}
-                        description={proyecto.description}
-                        imageUrl={proyecto.imageUrl}
-                        repoUrl={proyecto.repoUrl}
-                    />
-                ))}
+                <div className="flex flex-wrap justify-start animate-slideRight max-2xl:w-screen">
+                    {proyectos.map((proyecto, index) => (
+                        <Proyecto
+                            key={index}
+                            title={proyecto.title}
+                            description={proyecto.description}
+                            imageUrl={proyecto.imageUrl}
+                            repoUrl={proyecto.repoUrl}
+                        />
+                    ))}
+                </div>
             </div>
             {showButton && (
                 <button
