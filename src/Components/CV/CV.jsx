@@ -6,11 +6,11 @@ import { LanguageContext } from '../../Context/LanguageContext';
 const CV = () => {
     const { isEnglish } = useContext(LanguageContext);
 
-    const curriculum = "/CV.pdf"
-    const resume = "/resume.pdf"
+    const curriculum = "https://luciopalmucci.github.io/Portfolio/CV.pdf"
+    const resume = "https://luciopalmucci.github.io/Portfolio/resume.pdf"
 
     return (
-        <div className='justify-center items-center flex flex-col font-mono text-white mt-10 animate-slideDown'>
+        <div className='justify-center items-center flex flex-col font-mono text-white mt-8 animate-slideDown'>
             <div className="text-start w-40 max-sm:w-2/3">
                 <a
                     href={isEnglish ? resume : curriculum}
