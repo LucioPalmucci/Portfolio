@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import Background from './Components/Background/Background.jsx';
+import CV from './Components/CV/CV.jsx';
 import Experiencia from './Components/Experiencia/Experiencia.jsx';
 import Footer from './Components/Footer/Footer.jsx';
 import Intro from './Components/Introduction/Intro.jsx';
@@ -20,6 +21,7 @@ root.render(
       <Intro />
       <Proyectos/>
       <Experiencia/>
+      <CV/>
       <Footer/>
     </LanguageProvider>
   </React.StrictMode>
