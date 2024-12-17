@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/Portfolio/static/css/main.4d3024b6.css",
-    "main.js": "/Portfolio/static/js/main.7d94b54a.js",
+    "main.js": "/Portfolio/static/js/main.eda69de8.js",
     "static/js/453.1407b060.chunk.js": "/Portfolio/static/js/453.1407b060.chunk.js",
     "static/media/Exploraventura.png": "/Portfolio/static/media/Exploraventura.90991fb41bbc82ffa278.png",
     "static/media/fotoCV.png": "/Portfolio/static/media/fotoCV.89a76adf4e223519b5ca.png",
     "index.html": "/Portfolio/index.html",
     "main.4d3024b6.css.map": "/Portfolio/static/css/main.4d3024b6.css.map",
-    "main.7d94b54a.js.map": "/Portfolio/static/js/main.7d94b54a.js.map",
+    "main.eda69de8.js.map": "/Portfolio/static/js/main.eda69de8.js.map",
     "453.1407b060.chunk.js.map": "/Portfolio/static/js/453.1407b060.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.4d3024b6.css",
-    "static/js/main.7d94b54a.js"
+    "static/js/main.eda69de8.js"
   ]
 }
