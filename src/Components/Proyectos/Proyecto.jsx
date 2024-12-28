@@ -6,7 +6,7 @@ function Proyecto({ title, description, imageUrl, repoUrl }) {
     
     return (
         <div className="bg-gray-900 p-4 rounded-lg shadow-lg m-4 w-40">
-            <img src={imageUrl} alt={title} width={300} height={150} className="rounded-lg" />
+            <img src={imageUrl} alt={title} className="rounded-lg object-fill" />
             <div className="p-4">
                 <h2 className="text-xl font-bold text-white">{title}</h2>
                 <p id="descRef" className="text-gray-400 mt-2 text-xs sm:text-sm desc">{description}</p>

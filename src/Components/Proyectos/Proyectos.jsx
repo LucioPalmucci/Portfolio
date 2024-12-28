@@ -2,6 +2,7 @@ import { faCode } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React, { useContext, useEffect, useState } from 'react';
 import exploraventuraImg from '../../assets/Exploraventura.png';
+import moviereviewsImg from '../../assets/Movies-reviews.png';
 import { LanguageContext } from '../../Context/LanguageContext';
 import Proyecto from './Proyecto';
 
@@ -36,6 +37,12 @@ function Proyectos() {
             imageUrl: exploraventuraImg,
             repoUrl: 'https://github.com/LucioPalmucci/ExploraAventura',
         },
+        {
+            title: 'Movies-reviews',
+            description: isEnglish ? "Page about film's review using the TMDB API to get the information (in progress)" : 'Pagina sobre reseñas de peliculas utilizando la API de TMDB para obtener la informacion (en progreso)',
+            imageUrl: moviereviewsImg,
+            repoUrl: 'https://github.com/LucioPalmucci/Movies-reviews',
+        }
     ];
     
 
