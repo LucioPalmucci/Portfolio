@@ -1,7 +1,6 @@
 import { useContext } from 'react';
-import fotoCV from '../../assets/fotoCV.png';
 import { LanguageContext } from '../../Context/LanguageContext';
-
+import fotoCV from '../../assets/fotoCV.png';
 function Intro() {
     const { isEnglish } = useContext(LanguageContext);
     const nombre = isEnglish ? 'Hi, I am Lucio Palmucci' : 'Hola, soy Lucio Palmucci';
@@ -53,7 +52,7 @@ function Intro() {
         }
     ];
     return (
-        <div id="Home" className="justify-center items-center flex flex-col font-mono text-white">
+        <div id="Home" className="justify-center items-center flex flex-col font-mono text-white mt-10">
             <div>
                 <img src={fotoCV} className="md:w-64 md:h-64 max-md:h-44 max-md:w-44 rounded-full border-4 border-white animate-slideDown25" alt="Foto Portfolio" />
             </div>

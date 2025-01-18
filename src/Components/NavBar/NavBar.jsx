@@ -18,7 +18,7 @@ function NavBar() {
     return (
         <nav className='flex justify-between p-5 font-mono text-white'>
             <Idioma />
-            <div className="flex space-x-10 justify-between mr-14 menu hidden md:flex">
+            <div className="flex space-x-10 mr-14 justify-between menu hidden md:flex items-center">
                 <a href="#Home" className=" hover:text-gray-200">{Inicio}</a>
                 <a href="#Proyectos" className=" hover:text-gray-200">{Proyectos}</a>
                 <a href="#Experiencia" className=" hover:text-gray-200">{Experiencia}</a>
