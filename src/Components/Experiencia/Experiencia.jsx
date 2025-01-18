@@ -23,7 +23,7 @@ function Experiencia() {
                 <h1 className="text-2xl animate-show">
                     <FontAwesomeIcon icon={faBriefcase} style={{ fontSize: "0.8em" }} className="text-gray-400" /> {Experiencia}
                 </h1><br />
-                <p className="ml-4 text-gray-300 animate-slideLeft">
+                <p className="ml-4 animate-slideLeft">
                     Banco de Alimentos ({voluntariado})<br />
                     {tarea}<br />
                     {peroiodo}
@@ -31,7 +31,7 @@ function Experiencia() {
                 <h1 className="text-2xl mt-6 animate-show">
                     <FontAwesomeIcon icon={faBook} style={{ fontSize: "0.8em" }} className="text-gray-400" /> {Educación}
                 </h1><br />
-                <p className="ml-4 text-gray-300 animate-slideRight">{Universidad}<br />
+                <p className="ml-4 animate-slideRight">{Universidad}<br />
                     {carrera}<br />
                     {peroiodo2}
                 </p>
