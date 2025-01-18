@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.9ebaf546.css",
-    "main.js": "/Portfolio/static/js/main.dbf67dca.js",
+    "main.css": "/Portfolio/static/css/main.69f8253b.css",
+    "main.js": "/Portfolio/static/js/main.2976a12c.js",
     "static/js/453.1407b060.chunk.js": "/Portfolio/static/js/453.1407b060.chunk.js",
     "static/media/Movies-reviews.png": "/Portfolio/static/media/Movies-reviews.cb45cbc79f7181621379.png",
     "static/media/Exploraventura.png": "/Portfolio/static/media/Exploraventura.90991fb41bbc82ffa278.png",
     "static/media/fotoCV.png": "/Portfolio/static/media/fotoCV.89a76adf4e223519b5ca.png",
     "index.html": "/Portfolio/index.html",
-    "main.9ebaf546.css.map": "/Portfolio/static/css/main.9ebaf546.css.map",
-    "main.dbf67dca.js.map": "/Portfolio/static/js/main.dbf67dca.js.map",
+    "main.69f8253b.css.map": "/Portfolio/static/css/main.69f8253b.css.map",
+    "main.2976a12c.js.map": "/Portfolio/static/js/main.2976a12c.js.map",
     "453.1407b060.chunk.js.map": "/Portfolio/static/js/453.1407b060.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9ebaf546.css",
-    "static/js/main.dbf67dca.js"
+    "static/css/main.69f8253b.css",
+    "static/js/main.2976a12c.js"
   ]
 }
