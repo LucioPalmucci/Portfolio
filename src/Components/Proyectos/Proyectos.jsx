@@ -36,12 +36,14 @@ function Proyectos() {
             description: isEnglish ? 'Clone of the official page of exploraventura.com.ar' : 'Clon de la pagina Oficial de exploraventura.com.ar',
             imageUrl: exploraventuraImg,
             repoUrl: 'https://github.com/LucioPalmucci/ExploraAventura',
+            pageURL: 'https://luciopalmucci.github.io/ExploraAventura/',
         },
         {
             title: 'Movies-reviews',
             description: isEnglish ? "Page about film's review using the TMDB API to get the information (in progress)" : 'Pagina sobre reseñas de peliculas utilizando la API de TMDB para obtener la informacion (en progreso)',
             imageUrl: moviereviewsImg,
             repoUrl: 'https://github.com/LucioPalmucci/Movies-reviews',
+            pageURL: 'https://luciopalmucci.github.io/Movies-reviews/',
         }
     ];
     
@@ -60,6 +62,7 @@ function Proyectos() {
                             description={proyecto.description}
                             imageUrl={proyecto.imageUrl}
                             repoUrl={proyecto.repoUrl}
+                            pageURL={proyecto.pageURL}
                         />
                     ))}
                 </div>
